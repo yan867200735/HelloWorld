@@ -1,13 +1,18 @@
-console.log("ddddddddddddddddddddddddddddddddddd");
-var a = "*";
-for (var i = 0; i <= 3; i++) {
-    if (i = 1) {
-        console.log(" ", " ", a, " ", " ");
-    }
-    if (i = 2) {
-        console.log(" ", a, a, a, " ");
-    }
-    if (i = 3) {
-        console.log(a, a, a, a, a);
+fun();
+function fun() {
+    var a = " ";
+    var b = "*";
+    for (var h = 1; h <= 3; h++) {
+        var d;
+        d = "";
+        var e;
+        e = "";
+        for (var l = 1; l <= 3 - h; l++) {
+            d = d + a;
+        }
+        for (var k = 1; k <= 2 * h - 1; k++) {
+            e = e + b;
+        }
+        console.log(d + e);
     }
 }
